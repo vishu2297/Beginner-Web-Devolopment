@@ -1,0 +1,25 @@
+*,
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.box{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px #00000022;
+}
+.box{
+    background-color: darkslategray;
+    border: 1px solid #fff;
+}
+
+.container{
+    border: 5px solid goldenrod;
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+.box{
+    flex: 1;
+}
