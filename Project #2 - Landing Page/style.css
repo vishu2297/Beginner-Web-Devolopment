@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    color: #223b49;
+}
+
+/* .navbar{
+    background-color: #223b49;
+    padding: 10px;
+    height: 50px;
+}
+
+.navbar-brand{
+    color: red;
+}
+
+.navbar-link{
+    color: gold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+.hero{
+    height: 500px;
+    background: #03001e;
+    background: linear-gradient(to bottom, #fdeff9, #ec38bc, #7303c0, #03001e);
+
+    background: rgb(55, 31, 207);
+    background: url("https://source.unsplash.com/user/erondu/1600x900") no-repeat center;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container{
+    padding: 60px 50px;
+}
+
+.row{
+    display: inline-block;
+}
+
+.article{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0 5px;
+    width: 33%;
+}
+
+.article-image{
+    max-width: 100%;
+}
+
+.article-tag{
+    background-color: #35696e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.sticky{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;  
+}
+
+.special{
+    color: #fff;
+    font-size: 2em;
+    transition: all 0.3em linear;
+}
+
+.special:hover{
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+.main-nav{
+    list-style-type: none;
+    margin: 0;
+    font-size: 0.7em;
+}
+
+.main-nav > li{
+    display: inline-block;
+    padding: 10px;
+}
+
+li > a {
+    color: #f5f5f6;
+    /* text-decoration: none; */
+    text-shadow: 2px 2px 2px darkslateblue;
+}
+
+li > a:hover{
+    color: #686de0;
+}
+
+.logo{
+    width: 80px;
+    height: 50px;
+
+}
+
+footer{
+    background-color: slategrey;
+    font-style: italic;
+    border: 1px solid black;
+	padding:10px;
+	border-radius:5px;
+}
+
