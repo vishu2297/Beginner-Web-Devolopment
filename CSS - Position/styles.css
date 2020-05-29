@@ -1,0 +1,38 @@
+html,
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    padding: 50px;
+    margin: 50px;
+    border: 5px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    color: #fff;
+    padding: 20px;
+}
+
+.box-one{
+    background: #2b4482;
+}
+
+.box-two{
+    background: #964137;
+}
+
+.box-three{
+    background: #87780b;
+}
+
+.ad{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: yellow;
+    padding: 0px;
+    color: blueviolet;
+}
