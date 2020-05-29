@@ -1,0 +1,72 @@
+html,
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.title{
+    font-family: 'Roboto Mone', monospace;
+    text-transform: capitalize;
+}
+
+.author{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: o.3em;
+    font-size: 1.5em;
+    padding: 5px;
+    width: 100%;
+    border: 2px solid #ffbbdd;
+    
+}
+
+p{
+    width: 250px;
+    border-style: 8px;
+    padding: 10px;
+    margin: 0px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 0px black;
+    
+}
+
+p.one {
+    border-style: solid;
+    background-color: #ffbbdd;
+    margin-top: 20px;
+    border-color: red gold rgb(18, 18, 66) indigo;
+    box-shadow: 5px 5px 0px red;
+    
+  
+}
+
+p.two {
+    border-style: dotted;
+}
+
+p.three {
+    border-style: dashed;
+}
+
+p.four {
+    border-style: double;
+}
+
+p.five {
+    border-style: groove;
+    border-width: 12px;
+}
+
+p.six {
+    border-style: ridge;
+    border-width: 12px;
+}
+
+p.seven {
+    border-style: inset;
+    border-width: 12px;
+}
+
+p.eight {
+    border-style: outset;
+    border-width: 12px;
+}
