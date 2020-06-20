@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body class=temprature>
+    <h1 class="temp" id="temp">Temperature Conversion</h1>
+    <div class="tempWrapper">
+        <input class="tempInput" type="text" 
+        onkeyup="ctof()" name="tempc" id="tempc" placeholder="Celcius" />
+        <span>Celcius</span>
+    </div>
+    
+    <div class="tempWrapper">
+        <input class="tempInput" type="text" 
+        onkeyup="ftoc()" name="tempf" id="tempf" placeholder="Fahrenheit" />
+        <span>Fahrenheit</span>
+    </div>
+
+    <script src="./temperature.js"></script>
+</body>
+</html>

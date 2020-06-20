@@ -1,0 +1,44 @@
+body{
+    background: #ff5f6d;
+    background: -webkit-linear-gradient(
+    to right,
+    #ffc371,
+    #ff5f6d
+  );
+    background: linear-gradient(
+        to right,
+        #ffc371,
+        #ff5f6d
+    );
+}
+
+h1{
+    color:#fff;
+}
+
+.temp{
+     color: red;
+
+}
+.temperature{
+    height: 200px;
+    width: 350px;
+}
+
+.tempWrapper{
+    margin: 10px;
+    padding: 10px;
+  
+    
+}
+
+.tempInput{
+    border: 1px solid #D9D9D9;
+    border-top: 1px solid silver;
+    font-size: 180%;
+    height: 40px;
+    padding: 1px 6px;
+    text-align: center;
+    width: 197px;
+    border-radius: 2px 2px 0 0;
+}
